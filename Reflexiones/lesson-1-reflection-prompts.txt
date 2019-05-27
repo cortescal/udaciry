@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Al ver las diferencias entre los dos archivos me ayudo a encontrar mas facil mi error ya que me permitio ver en que parte realize las modificaciones
+    cuando el proyecto funcionaba
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    El manejo de control de versiones me ayudara a ser mas eficiente en mi trabajo ya que me permite tener un mejor panorama de los cambios realizados en los proyectos
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	    ventajas
+-El manejo de git me permite tener un mejor manejo de las versiones mis trabajo a diferencia de otras herramientas que realizan a un auto guardado
+-Cada version de proyecto se pude docuementar 
+
+	    Desventajas
+-Es muy importante enviar los cambios despues de un incremento en el codigo de lo contrario la informacion no se respaldara
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Creo que la respuesta es , que git maneja los documentos asociados a la carpeta de git como un proyecto 
+
+How can you use the commands git log and git diff to view the history of files?
+¿Cuáles crees que son los pros y los contras de elegir manualmente cuándo crear un compromiso, como lo haces en Git, y tener las versiones guardadas automáticamente, como lo hace Google Docs?
+Depende del juicio de las personas decidir cuando ya es necesario hacer un respaldo 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    si al estar haciendo un proyecto , la version nueva no funciona como esperaba , siempre puedo regresar a la version anterior en donde el proyecto funcionaba 
+
+Now that you have your workspace set up,  what do you want to try using Git for?
+
+Por lo que puedo ver es una herramienta de trabajo muy util para las personas que desarrollen software , sobre todo la parte en el manejo de control de versiones, 
+por otro lado es una herramienta muy popular entre desarrolladores
+
+¿Por qué cree que algunos sistemas de control de versiones, como Git, permiten guardar varios archivos en un solo coomit, mientras que otros, como Google Docs, tratan cada archivo por separado?
+
+   Git trata a los archivos como un solo repositorio , aparte de ser una herramienta pensando en las necesidades de los desarrolladores de software
+
+   ¿Cómo puedes usar los comandos git log y git diff para ver el historial de archivos?
+
+   el comando git log es utilizado para ver los cambios recientes guardados (commit) , asi mismo se pueden ver los los mensajes 
+   que estan relacionados con cada commit , el comando git diff los puedo utilizar para comparar dos versiones del proyecto utilizando los id de las versiones que se quieran comparar  

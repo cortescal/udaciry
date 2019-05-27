@@ -1,0 +1,33 @@
+What happens when you initialize a repository?
+Se crea el archivo .git que son los metadatos necesarios para que git funcione
+Why do you need to do it?
+Si no se crea un inicia un repositorio no tendria ninguna utilidad la herramienta git no tendría un manejo de control de versiones
+
+How is the staging area different from the working directory and the repository? 
+
+El area de preparacion es una forma de decir a git que los archivos ya estan listos para un commit 
+, por lo que se puede decir que ya existe una version del proyecto, es diferente a el area de trabajo en que solo esta en el disco duro
+What value do you think it offers?
+Al estar en el area de preparacion ya estamos listos para hacer un respaldo de nuestro proyecto
+
+How can you use the staging area to make sure you have one commit per logical change? haciendo un git status
+
+What are some situations when branches would be helpful in keeping your history
+organized? 
+Para el trabajo en equipo
+How would branches help?
+cada persona puede realizar cambios al proyecto teniendo una version propia del mismo, solo enviara sus cambios una vez 
+este seguro que de tiene un buen funcionamiento y no afectara a el proyecto en general 
+
+How do the diagrams help you visualize the branch structure?
+Dependiendo de la gerarquia de los ramas teniendo como la principal el master que es la version 100% funcional del proyecto 
+
+What is the result of merging two branches together? 
+Wl resultado de fusionar dos ramas en una es que los cambios de ambas ramas se pueden combinar para formar una solo version del proyecto
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+La fusion es una buena opcion ya que las ramas existentes no subren cambios pero puede resultar complicado al momento de trabajar en equipo 
+ya que los demas desarrolladores no pueden entender el historial del proyecto.
+Usando la fusion automatica se eliminan los commits de fusion que no son necesarios , por otra parte se tiene un historial del proyecto totalmente lineal.
+,como desventaja es que no se pueden ver los cambios realizados del nivel superior a la funcionalidad , se pierde el contexto que proporcionan los commits de fusion 

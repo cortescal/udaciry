@@ -1,0 +1,38 @@
+when would you want to create a remote repository rather than keeping all your work local? hay muchos motivos por lo que es mas conveniente 
+crear un repositorio remoto , cuando quiero trajar en equipo con otras personas , cuando pienso en compartir despues mi trabajo , cuando no 
+este trabajando en un solo equipo o en un solo lugar
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Considero que es mas comodo tener un manejo de control de versiones , ya que puedo decidir los cambios que voy a actualizar 
+en el momento que yo quiera.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Pues la between se enlazan a la cuenta original , por lo cual es mas comodo al momento de sugerir cambios,
+los clones solo son una copia del repositorio en otra maquina , por otra parte las ramas , se puede decir que son versiones 
+distintas del original , pero dado que sea necesario se pueden unir.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Una de las ventajas principales es que se tiene la ultima version que es funcinal , apartir de ahi se pueden realizar 
+nuevos cambios , por otra parte es como tener un repaldo 
+
+How would you collaborate without using Git or GitHub?   
+Es un tanto complicado decidir la forma de colaborar sin usar git , quiza por otros medios como dropbox o drive 
+
+Lo mas facil es que no hay que hacer comandos , por otra parte no se contaria con un historial como lo maneja git 
+con versiones y comentarios con cada version.
+
+When would you want to make changes in a separate branch rather than directly in master?
+
+Pues cuando quiera hacer una version diferente a la que se esta manejando , o simplemente en el trabajo , ya que el master por 
+lo regular se le hacen cambios cuando el codigo ya tiene un buen funcionamiento 
+
+¿Qué beneficios tiene cada enfoque?
+
+Pues el trabajar en una rama evita que se hagan desastres sobre todo en  los proyectos grandes en donde es muy importante , 
+tener un codigo funcional.
+
+Por otra parte trabajar en el master a mi consideracion es para cambios realmente que funcionan
